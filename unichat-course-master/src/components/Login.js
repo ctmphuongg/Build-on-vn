@@ -3,8 +3,14 @@ import { GoogleOutlined, FacebookOutlined } from 'ant-design/icons';
 
 const Login = () => {
         return ( <div id = 'login-page'>
-                <div id = "login-card"></div>
-                <h2>Welcome to Unichat</h2>
+                        <div id = "login-card">
+                        <h2>Welcome to Unichat</h2>
+                        <div className="login-button google">
+                        <GoogleOutlined /> Sign In With Google
+                        
+                <br /> <br />
+                </div>
+                </div>
                 </div> );
         }
 
